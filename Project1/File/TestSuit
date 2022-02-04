@@ -1,0 +1,14 @@
+Test scenario_01 Login
+    Test case id_01 : Test log in happy path
+    Test case id_02 : Test log in unhappy path,correct username(standard_user),wrong password(wrong_password)
+    Test case id_03 : Test log in unhappy path,wrong username(wrong_username),correct password(secret_sauce)
+    Test case id_04 : Test log in button color
+
+Test scenario_02 Sort product
+    Test case id_05 : Test sort products from A to Z
+    Test case id_06 : Test sort products form Z to A
+    Test case id_07 : Test sort products by price ASC order
+    Test case id_08 : Test sort products by price DESC order
+
+Test scenario_03 Order product
+    Test case id_09 : Test order one product

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_saucedemo(failed)">
+    <classes>
+      <class name="Tests.TestOrderProduct">
+        <methods>
+          <include name="setUp"/>
+          <include name="orderOneProduct"/>
+          <include name="tearDown"/>
+          <include name="setUpPage"/>
+        </methods>
+      </class> <!-- Tests.TestOrderProduct -->
+    </classes>
+  </test> <!-- Test_saucedemo(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

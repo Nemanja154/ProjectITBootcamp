@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-04T21:57:47 CET" name="Suite1" finished-at="2022-02-04T21:58:49 CET" duration-ms="61866">
+    <groups>
+    </groups>
+    <test started-at="2022-02-04T21:57:47 CET" name="Nopackage" finished-at="2022-02-04T21:58:49 CET" duration-ms="61866">
+      <class name="Tests.TestSortProduct">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestSortProduct@7692d9cc]" started-at="2022-02-04T21:58:00 CET" name="setUp" finished-at="2022-02-04T21:58:02 CET" duration-ms="1795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestSortProduct@7692d9cc]" started-at="2022-02-04T21:58:02 CET" name="setUpPage" finished-at="2022-02-04T21:58:04 CET" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="sortByNameAZ()[pri:0, instance:Tests.TestSortProduct@7692d9cc]" started-at="2022-02-04T21:58:04 CET" name="sortByNameAZ" finished-at="2022-02-04T21:58:05 CET" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByNameAZ -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestSortProduct@7692d9cc]" started-at="2022-02-04T21:58:05 CET" name="setUpPage" finished-at="2022-02-04T21:58:05 CET" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="sortByNameZA()[pri:0, instance:Tests.TestSortProduct@7692d9cc]" started-at="2022-02-04T21:58:05 CET" name="sortByNameZA" finished-at="2022-02-04T21:58:06 CET" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByNameZA -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestSortProduct@7692d9cc]" started-at="2022-02-04T21:58:06 CET" name="setUpPage" finished-at="2022-02-04T21:58:07 CET" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="sortByPriceHiLo()[pri:0, instance:Tests.TestSortProduct@7692d9cc]" started-at="2022-02-04T21:58:07 CET" name="sortByPriceHiLo" finished-at="2022-02-04T21:58:08 CET" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByPriceHiLo -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestSortProduct@7692d9cc]" started-at="2022-02-04T21:58:08 CET" name="setUpPage" finished-at="2022-02-04T21:58:08 CET" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="sortByPriceLoHi()[pri:0, instance:Tests.TestSortProduct@7692d9cc]" started-at="2022-02-04T21:58:08 CET" name="sortByPriceLoHi" finished-at="2022-02-04T21:58:09 CET" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByPriceLoHi -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestSortProduct@7692d9cc]" started-at="2022-02-04T21:58:09 CET" name="tearDown" finished-at="2022-02-04T21:58:09 CET" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TestSortProduct -->
+      <class name="Tests.TestLogInPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestLogInPage@2a32de6c]" started-at="2022-02-04T21:57:47 CET" name="setUp" finished-at="2022-02-04T21:57:54 CET" duration-ms="7123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestLogInPage@2a32de6c]" started-at="2022-02-04T21:57:54 CET" name="setUpPage" finished-at="2022-02-04T21:57:55 CET" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="logInButtonColor()[pri:0, instance:Tests.TestLogInPage@2a32de6c]" started-at="2022-02-04T21:57:55 CET" name="logInButtonColor" finished-at="2022-02-04T21:57:55 CET" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInButtonColor -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestLogInPage@2a32de6c]" started-at="2022-02-04T21:57:55 CET" name="setUpPage" finished-at="2022-02-04T21:57:55 CET" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="logInHappyPath()[pri:0, instance:Tests.TestLogInPage@2a32de6c]" started-at="2022-02-04T21:57:55 CET" name="logInHappyPath" finished-at="2022-02-04T21:57:57 CET" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInHappyPath -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestLogInPage@2a32de6c]" started-at="2022-02-04T21:57:57 CET" name="setUpPage" finished-at="2022-02-04T21:57:58 CET" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="logInUnhappyPathWrongPassword()[pri:0, instance:Tests.TestLogInPage@2a32de6c]" started-at="2022-02-04T21:57:58 CET" name="logInUnhappyPathWrongPassword" finished-at="2022-02-04T21:57:58 CET" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInUnhappyPathWrongPassword -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestLogInPage@2a32de6c]" started-at="2022-02-04T21:57:58 CET" name="setUpPage" finished-at="2022-02-04T21:57:59 CET" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="logInUnhappyPathWrongUsername()[pri:0, instance:Tests.TestLogInPage@2a32de6c]" started-at="2022-02-04T21:57:59 CET" name="logInUnhappyPathWrongUsername" finished-at="2022-02-04T21:57:59 CET" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInUnhappyPathWrongUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestLogInPage@2a32de6c]" started-at="2022-02-04T21:57:59 CET" name="tearDown" finished-at="2022-02-04T21:58:00 CET" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TestLogInPage -->
+      <class name="Tests.TestOrderProduct">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestOrderProduct@75f32542]" started-at="2022-02-04T21:58:09 CET" name="setUp" finished-at="2022-02-04T21:58:11 CET" duration-ms="1456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestOrderProduct@75f32542]" started-at="2022-02-04T21:58:11 CET" name="setUpPage" finished-at="2022-02-04T21:58:13 CET" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="orderOneProduct()[pri:10, instance:Tests.TestOrderProduct@75f32542]" started-at="2022-02-04T21:58:13 CET" name="orderOneProduct" finished-at="2022-02-04T21:58:14 CET" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderOneProduct -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestOrderProduct@75f32542]" started-at="2022-02-04T21:58:14 CET" name="setUpPage" finished-at="2022-02-04T21:58:15 CET" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="orderTwoProduct()[pri:20, instance:Tests.TestOrderProduct@75f32542]" started-at="2022-02-04T21:58:15 CET" name="orderTwoProduct" finished-at="2022-02-04T21:58:17 CET" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderTwoProduct -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestOrderProduct@75f32542]" started-at="2022-02-04T21:58:17 CET" name="setUpPage" finished-at="2022-02-04T21:58:17 CET" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="removeAllProductsFromCart()[pri:30, instance:Tests.TestOrderProduct@75f32542]" started-at="2022-02-04T21:58:17 CET" name="removeAllProductsFromCart" finished-at="2022-02-04T21:58:28 CET" duration-ms="10966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAllProductsFromCart -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestOrderProduct@75f32542]" started-at="2022-02-04T21:58:28 CET" name="setUpPage" finished-at="2022-02-04T21:58:30 CET" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="continueShopping()[pri:40, instance:Tests.TestOrderProduct@75f32542]" started-at="2022-02-04T21:58:30 CET" name="continueShopping" finished-at="2022-02-04T21:58:30 CET" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestOrderProduct@75f32542]" started-at="2022-02-04T21:58:30 CET" name="tearDown" finished-at="2022-02-04T21:58:31 CET" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TestOrderProduct -->
+      <class name="Tests.TestSocialButton">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TestSocialButton@7f1302d6]" started-at="2022-02-04T21:58:31 CET" name="setUp" finished-at="2022-02-04T21:58:33 CET" duration-ms="2099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestSocialButton@7f1302d6]" started-at="2022-02-04T21:58:33 CET" name="setUpPage" finished-at="2022-02-04T21:58:36 CET" duration-ms="2379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="twitterButton()[pri:10, instance:Tests.TestSocialButton@7f1302d6]" started-at="2022-02-04T21:58:36 CET" name="twitterButton" finished-at="2022-02-04T21:58:39 CET" duration-ms="3123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitterButton -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestSocialButton@7f1302d6]" started-at="2022-02-04T21:58:39 CET" name="setUpPage" finished-at="2022-02-04T21:58:40 CET" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="facebookButton()[pri:20, instance:Tests.TestSocialButton@7f1302d6]" started-at="2022-02-04T21:58:40 CET" name="facebookButton" finished-at="2022-02-04T21:58:42 CET" duration-ms="2380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookButton -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:Tests.TestSocialButton@7f1302d6]" started-at="2022-02-04T21:58:42 CET" name="setUpPage" finished-at="2022-02-04T21:58:44 CET" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="linkedInButton()[pri:30, instance:Tests.TestSocialButton@7f1302d6]" started-at="2022-02-04T21:58:44 CET" name="linkedInButton" finished-at="2022-02-04T21:58:47 CET" duration-ms="3094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkedInButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TestSocialButton@7f1302d6]" started-at="2022-02-04T21:58:47 CET" name="tearDown" finished-at="2022-02-04T21:58:49 CET" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TestSocialButton -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>

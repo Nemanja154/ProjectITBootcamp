@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Nopackage</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Nopackage</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 04 21:57:47 CET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>61 seconds (61866 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.TestSortProduct.sortByNameAZ()'><b>sortByNameAZ</b><br>Test class: Tests.TestSortProduct</td>
+<td></td>
+<td>0</td>
+<td>Tests.TestSortProduct@7692d9cc</td></tr>
+<tr>
+<td title='Tests.TestSocialButton.linkedInButton()'><b>linkedInButton</b><br>Test class: Tests.TestSocialButton</td>
+<td></td>
+<td>3</td>
+<td>Tests.TestSocialButton@7f1302d6</td></tr>
+<tr>
+<td title='Tests.TestSocialButton.facebookButton()'><b>facebookButton</b><br>Test class: Tests.TestSocialButton</td>
+<td></td>
+<td>2</td>
+<td>Tests.TestSocialButton@7f1302d6</td></tr>
+<tr>
+<td title='Tests.TestLogInPage.logInHappyPath()'><b>logInHappyPath</b><br>Test class: Tests.TestLogInPage</td>
+<td></td>
+<td>2</td>
+<td>Tests.TestLogInPage@2a32de6c</td></tr>
+<tr>
+<td title='Tests.TestOrderProduct.orderTwoProduct()'><b>orderTwoProduct</b><br>Test class: Tests.TestOrderProduct</td>
+<td></td>
+<td>1</td>
+<td>Tests.TestOrderProduct@75f32542</td></tr>
+<tr>
+<td title='Tests.TestOrderProduct.removeAllProductsFromCart()'><b>removeAllProductsFromCart</b><br>Test class: Tests.TestOrderProduct</td>
+<td></td>
+<td>10</td>
+<td>Tests.TestOrderProduct@75f32542</td></tr>
+<tr>
+<td title='Tests.TestLogInPage.logInUnhappyPathWrongPassword()'><b>logInUnhappyPathWrongPassword</b><br>Test class: Tests.TestLogInPage</td>
+<td></td>
+<td>0</td>
+<td>Tests.TestLogInPage@2a32de6c</td></tr>
+<tr>
+<td title='Tests.TestSortProduct.sortByPriceHiLo()'><b>sortByPriceHiLo</b><br>Test class: Tests.TestSortProduct</td>
+<td></td>
+<td>0</td>
+<td>Tests.TestSortProduct@7692d9cc</td></tr>
+<tr>
+<td title='Tests.TestLogInPage.logInUnhappyPathWrongUsername()'><b>logInUnhappyPathWrongUsername</b><br>Test class: Tests.TestLogInPage</td>
+<td></td>
+<td>0</td>
+<td>Tests.TestLogInPage@2a32de6c</td></tr>
+<tr>
+<td title='Tests.TestOrderProduct.continueShopping()'><b>continueShopping</b><br>Test class: Tests.TestOrderProduct</td>
+<td></td>
+<td>0</td>
+<td>Tests.TestOrderProduct@75f32542</td></tr>
+<tr>
+<td title='Tests.TestSortProduct.sortByNameZA()'><b>sortByNameZA</b><br>Test class: Tests.TestSortProduct</td>
+<td></td>
+<td>0</td>
+<td>Tests.TestSortProduct@7692d9cc</td></tr>
+<tr>
+<td title='Tests.TestLogInPage.logInButtonColor()'><b>logInButtonColor</b><br>Test class: Tests.TestLogInPage</td>
+<td></td>
+<td>0</td>
+<td>Tests.TestLogInPage@2a32de6c</td></tr>
+<tr>
+<td title='Tests.TestOrderProduct.orderOneProduct()'><b>orderOneProduct</b><br>Test class: Tests.TestOrderProduct</td>
+<td></td>
+<td>1</td>
+<td>Tests.TestOrderProduct@75f32542</td></tr>
+<tr>
+<td title='Tests.TestSortProduct.sortByPriceLoHi()'><b>sortByPriceLoHi</b><br>Test class: Tests.TestSortProduct</td>
+<td></td>
+<td>0</td>
+<td>Tests.TestSortProduct@7692d9cc</td></tr>
+<tr>
+<td title='Tests.TestSocialButton.twitterButton()'><b>twitterButton</b><br>Test class: Tests.TestSocialButton</td>
+<td></td>
+<td>3</td>
+<td>Tests.TestSocialButton@7f1302d6</td></tr>
+</table><p>
+</body>
+</html>
